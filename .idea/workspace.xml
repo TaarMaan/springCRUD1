@@ -9,12 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad05aff-a612-4568-bfe8-256b2482e8c7" name="Changes" comment="third init added post method">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+    <list default="true" id="aad05aff-a612-4568-bfe8-256b2482e8c7" name="Changes" comment="fourth init +edit.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
@@ -179,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678288973442</updated>
-      <workItem from="1678288975246" duration="4895000" />
+      <workItem from="1678288975246" duration="6511000" />
     </task>
     <task id="LOCAL-00001" summary="second init list(db) with peoples + Person with attributes people's + DAO with display func request in db + controller; http-&gt; person -&gt; dao -&gt; controller -&gt; db">
       <created>1678291484917</created>
@@ -195,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678293222210</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fourth init added hidden post request (PATCH, DELETE) + edit person">
+      <created>1678294471546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678294471546</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fourth init +edit.html">
+      <created>1678294499832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678294499833</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second init list(db) with peoples + Person with attributes people's + DAO with display func request in db + controller; http-&gt; person -&gt; dao -&gt; controller -&gt; db" />
     <MESSAGE value="third init added post method" />
-    <option name="LAST_COMMIT_MESSAGE" value="third init added post method" />
+    <MESSAGE value="fourth init added hidden post request (PATCH, DELETE) + edit person" />
+    <MESSAGE value="fourth init +edit.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth init +edit.html" />
   </component>
 </project>
