@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad05aff-a612-4568-bfe8-256b2482e8c7" name="Changes" comment="fifth init + validation params + dynamic display html's error if u validation fail">
+    <list default="true" id="aad05aff-a612-4568-bfe8-256b2482e8c7" name="Changes" comment="sixth iibt start to add db postgres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,6 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -181,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678288973442</updated>
       <workItem from="1678288975246" duration="12877000" />
-      <workItem from="1678478079692" duration="924000" />
+      <workItem from="1678478079692" duration="4735000" />
     </task>
     <task id="LOCAL-00001" summary="second init list(db) with peoples + Person with attributes people's + DAO with display func request in db + controller; http-&gt; person -&gt; dao -&gt; controller -&gt; db">
       <created>1678291484917</created>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678296141246</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sixth iibt start to add db postgres">
+      <created>1678479216949</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678479216949</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +237,7 @@
     <MESSAGE value="fourth init added hidden post request (PATCH, DELETE) + edit person" />
     <MESSAGE value="fourth init +edit.html" />
     <MESSAGE value="fifth init + validation params + dynamic display html's error if u validation fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth init + validation params + dynamic display html's error if u validation fail" />
+    <MESSAGE value="sixth iibt start to add db postgres" />
+    <option name="LAST_COMMIT_MESSAGE" value="sixth iibt start to add db postgres" />
   </component>
 </project>
